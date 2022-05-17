@@ -172,6 +172,8 @@ export default {
 .footer_top{
     background-color: #111117;
     height: 600px;
+    //overflow-x: auto;
+    overflow:auto
 
 }
 
@@ -204,6 +206,8 @@ export default {
 footer{
     background-color: rgb(12, 11, 11);
     color: #bcbebc;
+
+
     
 
 }

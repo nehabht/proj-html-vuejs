@@ -39,7 +39,7 @@ h1{
 
     span{
         color: #1c918e; 
-        background-color: #bfd8d7;
+        background-color: #D5E7E8;
         border-radius: 5px; 
         padding: 10px 16px;
     }

@@ -10,17 +10,20 @@
             </div>
         </div>
         <JumboComponent />
+        <BusinessAreaComponent />
     </main>
 </template>
 
 <script>
 import NavbarMenu from "@/components/NavbarMenu.vue";
 import JumboComponent from '@/components/JumboComponent.vue'
+import BusinessAreaComponent from '@/components/BusinessAreasComponent.vue'
 
 export default {
   components: {
     NavbarMenu,
     JumboComponent,
+    BusinessAreaComponent,
   },
   
 };
