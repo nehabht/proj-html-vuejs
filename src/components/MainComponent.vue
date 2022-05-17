@@ -8,19 +8,19 @@
                 <NavbarMenu />
 
             </div>
-            
-            
-
         </div>
+        <JumboComponent />
     </main>
 </template>
 
 <script>
 import NavbarMenu from "@/components/NavbarMenu.vue";
+import JumboComponent from '@/components/JumboComponent.vue'
 
 export default {
   components: {
-    NavbarMenu
+    NavbarMenu,
+    JumboComponent,
   },
   
 };

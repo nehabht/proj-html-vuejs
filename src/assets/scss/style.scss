@@ -18,3 +18,14 @@ img{
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
 }
+
+.btn{
+    border: 1px solid #1c918e;
+    font-weight: 600;
+    font-size: 14px;
+
+    &:hover{
+        filter: brightness(1.2);
+    }
+
+}

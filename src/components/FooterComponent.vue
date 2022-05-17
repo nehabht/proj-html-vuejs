@@ -220,12 +220,7 @@ footer{
 .btn{
     color: #dedede;
     background-color: transparent;
-    border: 1px solid #1c918e;
     margin-top: 16px;
-    //padding: 10px;
-    font-weight: 600;
-    
-
 
     &:hover{
         color:white
