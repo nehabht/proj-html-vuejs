@@ -26,6 +26,11 @@
                     Main Avenue,987
                 </div>
 
+                <span class="btn">
+                    GET IN TOUCH
+
+                </span>
+
 
 
                 
@@ -43,6 +48,20 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="footer_bottom container d-flex align-items-center justify-content-between">
+        <div>
+            <span>
+                Enjoy the low price. We are tracking any intention of piracy.
+            </span>
+        </div>
+        <div>
+            <span>
+                &copy; 2020 NEXTGEN is Proudly Powered by <span class="codings">Codings.</span>
+            </span>
+
+        </div>
+
     </div>
   </footer>
 </template>
@@ -163,21 +182,54 @@ export default {
     }
 }
 
-.col-3{
+.col-3.left_col{
     
-    margin: 20px 30px;
+    margin: 20px 0px;
     padding: 30px 25px;
     border-radius: 5px;
 }
 
 .left_col{
     color: #bcbebc;
-    width: 280px;
+    width: 300px;
+
 
     div{
         padding: 10px 0px;
+        margin-left: 0px
     }
 
+}
+
+footer{
+    background-color: rgb(12, 11, 11);
+    color: #bcbebc;
+    
+
+}
+
+.footer_bottom{
+    height: 60px;
+    font-size: 15px;
+}
+
+.codings{
+    color: #1c918e
+}
+
+.btn{
+    color: #dedede;
+    background-color: transparent;
+    border: 1px solid #1c918e;
+    margin-top: 16px;
+    //padding: 10px;
+    font-weight: 600;
+    
+
+
+    &:hover{
+        color:white
+    }
 }
 
 

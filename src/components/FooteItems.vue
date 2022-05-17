@@ -48,9 +48,10 @@ h4{
 
 .col-3{
     background-color: #1d2023;
-    margin: 20px 40px;
-    padding: 30px 25px;
-    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 40px 45px;
+    border-radius: 8px;
+    width: 270px;
 
     li{
         padding: 6px 0px;
