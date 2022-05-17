@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="footer_top d-flex align-items-center">
-      <div class="container">
+      <div class="container scrollmenu">
         <div class="row">
           <div class="col-3 left_col">
                 <div class="logo">
@@ -35,7 +35,7 @@
 
                 
           </div>
-          <div class="col">
+          <div class="col ">
             <div class="row justify-content-between">
               <FooterItems
                 :menuTitle="title"
@@ -173,7 +173,8 @@ export default {
     background-color: #111117;
     height: 600px;
     //overflow-x: auto;
-    overflow:auto
+    overflow: auto;
+    white-space: nowrap;
 
 }
 
@@ -203,12 +204,18 @@ export default {
 
 }
 
+.row{
+    flex-wrap: nowrap;
+    column-gap: 20px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+
+
 footer{
     background-color: rgb(12, 11, 11);
-    color: #bcbebc;
-
-
-    
+    color: #bcbebc;  
 
 }
 
